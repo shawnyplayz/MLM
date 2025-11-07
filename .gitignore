@@ -1,9 +1,79 @@
+<<<<<<< HEAD
 # Logs
 logs
+=======
+# MLM Application - Git Ignore File
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backend (Go)
+backend/mlm-api
+backend/*.exe
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/*.test
+backend/*.out
+backend/vendor/
+
+# Frontend (Node.js)
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+ecommerce/.next/
+ecommerce/out/
+ecommerce/build
+ecommerce/.DS_Store
+ecommerce/*.pem
+
+# Vite
+admin-dashboard/dist/
+admin-dashboard/dist-ssr/
+admin-dashboard/*.local
+distributor-portal/dist/
+distributor-portal/dist-ssr/
+distributor-portal/*.local
+
+# Testing
+coverage/
+*.cover
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+build/
+dist/
+
+# Logs
+logs/
+>>>>>>> 343b07a (Initial commit)
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -45,6 +115,32 @@ jspm_packages/
 web_modules/
 
 # TypeScript cache
+=======
+pnpm-debug.log*
+lerna-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+>>>>>>> 343b07a (Initial commit)
 *.tsbuildinfo
 
 # Optional npm cache directory
@@ -53,9 +149,12 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
 # Optional stylelint cache
 .stylelintcache
 
+=======
+>>>>>>> 343b07a (Initial commit)
 # Optional REPL history
 .node_repl_history
 
@@ -65,12 +164,16 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
+<<<<<<< HEAD
 # dotenv environment variable files
 .env
 .env.*
 !.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
+=======
+# parcel-bundler cache
+>>>>>>> 343b07a (Initial commit)
 .cache
 .parcel-cache
 
@@ -84,6 +187,7 @@ dist
 
 # Gatsby files
 .cache/
+<<<<<<< HEAD
 # Comment in the public line in if your project uses Gatsby and not Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
@@ -106,6 +210,9 @@ dist
 
 # Docusaurus cache and generated files
 .docusaurus
+=======
+public
+>>>>>>> 343b07a (Initial commit)
 
 # Serverless directories
 .serverless/
@@ -116,15 +223,19 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+<<<<<<< HEAD
 # Firebase cache directory
 .firebase/
 
+=======
+>>>>>>> 343b07a (Initial commit)
 # TernJS port file
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+<<<<<<< HEAD
 # yarn v3
 .pnp.*
 .yarn/*
@@ -137,3 +248,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+# Temporary folders
+tmp/
+temp/
+>>>>>>> 343b07a (Initial commit)
